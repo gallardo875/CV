@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - José Antonio Gallardo Loaiza</title>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <style>
+        /* Estilos de la barra de navegación */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Estilos de la tabla */
+        .portfolio-table {
+            width: 80%;
+            margin: 50px auto;
+            border-collapse: collapse;
+        }
+
+        .portfolio-table th, .portfolio-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .portfolio-table th {
+            background-color: #f4f4f4;
+            font-size: 1.2em;
+        }
+
+        .portfolio-table td img {
+            max-width: 100px; /* Ajusta el tamaño máximo de las imágenes */
+            height: auto;
+        }
+
+        /* Estilos del footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <a href="index.html">Inicio</a>
+        <a href="portafolio.html">Portafolio</a>
+    </div>
+
+    <!-- Contenido de la página -->
+    <div class="portfolio-container">
+        <h1 style="text-align: center;">Portafolio de Proyectos</h1>
+        
+        <table class="portfolio-table">
+            <thead>
+                <tr>
+                    <th>Nombre del Proyecto</th>
+                    <th>Imagen del Proyecto</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Proyecto CV solo HTML</td>
+                    <td><img src="assets/img/Landing_cars.png" alt="Imagen del Proyecto 1"></td>
+                </tr>
+                <tr>
+                    <td>Proyecto maqueta cuppon</td>
+                    <td><img src="assets/img/maqueta_cuppon.png" alt="Imagen del Proyecto 2"></td>
+                </tr>
+                <tr>
+                    <td>Proyecto primer forkeado</td>
+                    <td><img src="assets/img/primer_forkeado.png" alt="Imagen del Proyecto 3"></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Todos los derechos reservados JAGL2024
+    </footer>
+
+</body>
+</html>
